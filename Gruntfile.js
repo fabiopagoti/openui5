@@ -82,64 +82,16 @@ module.exports = function(grunt) {
 					}
 			},
 			{
-					name: 'sap.ui.unified',
-					path: 'src/sap.ui.unified'
-			},
-			{
-					name: 'sap.ui.layout',
-					path: 'src/sap.ui.layout'
-			},
-			{
 					name: 'sap.m',
 					path: 'src/sap.m'
-			},
-			{
-					name: 'sap.tnt',
-					path: 'src/sap.tnt'
-			},
-			{
-					name: 'sap.f',
-					path: 'src/sap.f'
 			},
 			{
 					name: 'sap.foo',
 					path: 'src/sap.foo'
 			},
 			{
-					name: 'sap.ui.commons',
-					path: 'src/sap.ui.commons'
-			},
-			{
-					name: 'sap.ui.table',
-					path: 'src/sap.ui.table'
-			},
-			{
-					name: 'sap.ui.ux3',
-					path: 'src/sap.ui.ux3'
-			},
-			{
-					name: 'sap.ui.suite',
-					path: 'src/sap.ui.suite'
-			},
-			{
 					name: 'sap.ui.documentation',
 					path: 'src/sap.ui.documentation'
-			},
-			{
-					name: 'sap.ui.dt',
-					path: 'src/sap.ui.dt'
-			},
-			{
-					name: 'sap.uxap',
-					path: 'src/sap.uxap'
-			},
-			{
-					name: 'sap.ui.fl',
-					path: 'src/sap.ui.fl'
-			},
-			{
-					name: 'sap.ui.codeeditor',
-					path: 'src/sap.ui.codeeditor'
 			},
 			{
 					name: 'sap.ui.support',

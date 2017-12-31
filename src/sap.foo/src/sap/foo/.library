@@ -14,17 +14,6 @@
 
   <appData>
     
-    <documentation xmlns="http://www.sap.com/ui5/buildext/documentation"
-        indexUrl="../../../test-resources/sap/tnt/demokit/docuindex.json"
-        resolve="lib" />
-    <releasenotes xmlns="http://www.sap.com/ui5/buildext/releasenotes"
-        url="../../../test-resources/sap/tnt/relnotes/changes-{major}.{minor}.json"
-        resolve="lib" />
-
-    <ownership xmlns="http://www.sap.com/ui5/buildext/ownership">
-        <component></component>
-    </ownership>
-
   </appData>
 
 </library>
