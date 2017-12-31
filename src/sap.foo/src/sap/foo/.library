@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<library xmlns="http://www.sap.com/sap.ui.library.xsd" >
+
+  <name>sap.foo</name>
+  <vendor>SAP SE</vendor>
+  <copyright>${copyright}</copyright>
+  <version>${version}</version>
+
+  <documentation>SAPUI5 example library</documentation>
+
+  <dependencies>
+  
+  </dependencies>
+
+  <appData>
+    
+    <documentation xmlns="http://www.sap.com/ui5/buildext/documentation"
+        indexUrl="../../../test-resources/sap/tnt/demokit/docuindex.json"
+        resolve="lib" />
+    <releasenotes xmlns="http://www.sap.com/ui5/buildext/releasenotes"
+        url="../../../test-resources/sap/tnt/relnotes/changes-{major}.{minor}.json"
+        resolve="lib" />
+
+    <ownership xmlns="http://www.sap.com/ui5/buildext/ownership">
+        <component></component>
+    </ownership>
+
+  </appData>
+
+</library>

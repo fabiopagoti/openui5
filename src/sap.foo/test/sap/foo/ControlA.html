@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>sap.foo.ControlA</title>
+		<script
+				src="../../../resources/sap-ui-core.js"
+				id="sap-ui-bootstrap"
+				data-sap-ui-libs="sap.foo">
+		</script>
+		<script>
+			
+			var controlA_1 = new sap.foo.ControlA({
+				p1: "This is p1"
+			}).placeAt('sample-1');
+
+			var controlA_2 = new sap.foo.ControlA({
+				p1: "This is p1 when p2 is true",
+				p2: true
+			}).placeAt('sample-2');
+
+			var controlA_3 = new sap.foo.ControlA({
+				p1: "This is p1 when p2 is false",
+				p2: false
+			}).placeAt('sample-3');
+
+		</script>
+	</head>
+	<body id="body" class="sapUiBody" role="application">	
+		<div id="sample-1"></div>
+		<div id="sample-2"></div>
+		<div id="sample-3"></div>
+	</body>
+</html>
